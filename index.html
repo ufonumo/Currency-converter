@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="currency.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="display-4 text-center mb-4"> Currency Converter</h1>
+                <form action="">
+                    <div class="form-group md-2">
+                        <input id="amountInput" type="number" class=" form-control form-control-lg" placeholder="Enter Amount (NGN)">
+                    </div>
+                </form>
+
+                <div id="output">
+                    <div class="card card-primary mb-3">
+                        <div class="card-block p-2">
+                            <h4>USD:</h4>
+                            <div id="dollar-output">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card-success mb-3">
+                        <div class="card-block p-2">
+                            <h4>EUR:</h4>
+                            <div id="euros-output">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card-danger mb-3">
+                        <div class="card-block p-2">
+                            <h4>YEN:</h4>
+                            <div id="yen-output">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card-tertiary mb-3">
+                        <div class="card-block p-2">
+                            <h4>WON:</h4>
+                            <div id="won-output">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="currency.js"></script>
+</body>
+</html>

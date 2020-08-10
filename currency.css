@@ -1,0 +1,21 @@
+body{
+    margin-top: 70px;
+    background: #333;
+    color: #fff;
+}
+
+.card-primary{
+    background-color: darksalmon;
+}
+
+.card-success{
+    background-color: darkseagreen;
+}
+
+.card-danger{
+    background-color: darkturquoise;
+}
+
+.card-tertiary{
+    background-color: firebrick;
+}
